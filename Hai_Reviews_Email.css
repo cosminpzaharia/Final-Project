@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family:'garetFont';
+} 
+
+@font-face {
+    font-family: 'garetFont';
+    src: url(Assets/Garet-Book.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.form{
+    width: 35em;
+    padding:1em;
+    
+}
+
+input, textarea {
+    width:100%;
+    padding:1em;
+    outline:none;
+    border: solid;
+    border-color: #ffffff;
+    margin: 0.3em 0em;
+    box-shadow: 2px 2px 2px #ff634e,
+    10px 10px 12px #ff634e,
+    inset 2px 2px 10px #ff634e,
+    inset 2px 2px 10px #ff634e,
+    inset 2px 2px 10px #ff634e;
+   
+text-shadow: 0 0 50px #ff634e,
+     0 0 100px #ff634e,
+     0 0 150px #ff634e,
+     0 0 200px #ff634e;
+animation:boxemailAnimate 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes boxemailAnimate {
+100% {
+box-shadow:  0 0 10px  #ff634e,
+        0 0 17px #ff634e,
+        0 0 23px #ff634e,                  
+        0 0 26px #ff634e,                  
+        0 0 29px #ff634e,                
+        0 0 35px #ff634e;                  
+
+}
+0% {
+box-shadow:  0 0 7px #ff634e,
+        0 0 15px #ff634e,
+        0 0 20px #ff634e,
+        0 0 24px #ff634e,                  
+        0 0 26px #ff634e,                
+        0 0 32px #ff634e;  
+}
+}
+
+
+#btn {
+    
+    margin-top: 3em;   
+    border:3px solid #ff634e;
+   font-weight:bolder; 
+   border-radius: 3em;
+   background: #000000;
+   color:#ffffff;
+   outline: 0;
+   cursor: pointer;
+   padding: 1em 5em;
+   box-shadow: 2px 2px 2px #ffffff,
+            10px 10px 12px #ffffff,
+   inset 2px 2px 10px #ffffff,
+   inset 2px 2px 10px #ffffff,
+   inset 2px 2px 10px #ffffff;
+  
+text-shadow: 0 0 50px #ffffff,
+    0 0 100px #ffffff,
+    0 0 150px #ffffff,
+    0 0 200px #ffffff;
+animation: boxbuttonAnimate 0.5s ease-in-out infinite alternate;
+
+}
+
+@keyframes boxbuttonAnimate {
+   100% {
+       box-shadow: 0 0 5px  #ffffff,
+                    0 0 9px #ffffff,
+                    0 0 12px #ffffff,                  
+                    0 0 13px #ffffff,                  
+                    0 0 14px #ffffff,                
+                    0 0 16px #ffffff;                  
+
+   }
+   0% {
+       box-shadow: 0 0 4px #ffffff,
+                    0 0 7px #ffffff,
+                    0 0 10px #ffffff,
+                    0 0 12px #ffffff,                  
+                    0 0 13px #ffffff,                
+                    0 0 16px #ffffff;  
+   }
+}
+
+
+
+

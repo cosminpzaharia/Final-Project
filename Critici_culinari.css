@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family:'garetFont';
+} 
+
+@font-face {
+    font-family: 'garetFont';
+    src: url(Assets/Garet-Book.ttf);
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 2rem;
+    color: #ff634e;
+    width:100vh;
+    height:100vh;
+    max-width: 700px;
+    text-align: center;
+
+}
+
+
+.critics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstCritic, .secondCritic, .thirdCritic, .fourthCritic, .fifthCritic{
+    width:15em;
+    height:8em;
+    border: solid;
+    border-color: #ffffff;
+    font-family: 'garetFont';
+    
+} 
